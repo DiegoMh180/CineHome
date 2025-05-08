@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alquiler de Películas</title>
+  <link rel="stylesheet" href="../css/Alquiler.css">
+</head>
+<body>
+  <header class="hero">
+    <img id="ban" src="../imagenes/carrusel1.jpg">
+<div class="contenido">
+    <h2 id="titulo-carrusel">Minecraft</h2>
+    <p id="texto-carrusel">Bienvenido al mundo de Minecraft, donde la creatividad no sólo 
+        ayuda a crear, sino que es esencial para la supervivencia.</p>
+    <a href="#">
+        <button>🎫 Comprar</button>
+    </a>
+</div>
+<div class="menu">
+  <h1>Cine Home</h1>
+  <nav>
+    <a href="Indez.html">Home</a>
+    <a href="../Html/">Alquiler</a>
+    <a href="../Html/Nosotros.html">Nosotros</a>
+    <a href="../Html/Socios.html">Socio</a>
+  </nav>
+</div> 
+  </header>
+  <div class="container">
+    <br>
+    <h1>Alquiler de Películas</h1>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Buscar película..." onkeyup="filtrarPeliculas()">
+    </div>
+    
+    <div class="grid" id="peliculasGrid">
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section redes">
+        <h6>Síguenos</h6>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/?ref=tn_tnmn" target="_blank"><img src="../imagenes/icon.facebook.png" alt="Facebook" ></a>
+              <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="../imagenes/icon.instagram.png" alt="Instagram"></a>
+              <a href="https://www.youtube.com/" target="_blank"><img src="../imagenes/icon.youtube.png" alt="YouTube"></a>
+              <a href="https://www.tiktok.com/es/" target="_blank"><img src="../imagenes/icon.tiktok.png" alt="TikTok"></a>
+        </div>
+      </div>
+  
+      <div class="footer-section">
+        <h6>Nosotros</h6>
+        <ul>
+          <li><a href="Nosotros.html">Conócenos</a></li>
+          <li><a href="Nosotros.html">Trabaja con nosotros</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h6>Atención al cliente</h6>
+        <ul>
+          <li><a href="#">Ver mi boleta electrónica</a></li>
+          <li><a href="#">Ver lista de productos permitidos</a></li>
+          <li><a href="#">Contáctanos</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h6>Políticas y condiciones</h6>
+        <ul>
+          <li><a href="#">Política de Privacidad</a></li>
+          <li><a href="#">Condiciones de uso y seguridad</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+        </ul>
+      </div>
+  
+    </div>
+</footer>  
+
+ <script src="../js/Alquiler.js"></script>
+</body>
+</html>
